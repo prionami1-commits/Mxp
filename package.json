@@ -1,0 +1,9 @@
+{
+  "name": "dana-global-market-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "wrangler dev", "deploy": "wrangler deploy", "typecheck": "tsc --noEmit"},
+  "dependencies": {"@modelcontextprotocol/server": "^2.0.0", "agents": "^0.6.0", "zod": "^4.0.0"},
+  "devDependencies": {"@cloudflare/workers-types": "^4.20261125.0", "typescript": "^5.8.3", "wrangler": "^4.45.0"}
+}
